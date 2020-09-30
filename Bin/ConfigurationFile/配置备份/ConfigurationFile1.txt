@@ -1,0 +1,16 @@
+[SenSorSetting]
+
+[ParameticCorrection]
+IsThermalCompensation = 1
+UpperSensorAngle = 2
+LowerSensorAngle = 3
+SensorsDistance = 0
+
+[CalibrationParameter]
+UpperLineMeanValue = 0
+LowerLineMeanValue = 0
+UpperSensorTemperature = 0
+LowerSensorTemperature = 0
+
+[Debug]
+IsDebug = 1

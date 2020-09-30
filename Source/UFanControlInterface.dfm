@@ -1,0 +1,101 @@
+object FanControlForm: TFanControlForm
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = #39118#25159#25511#21046#35843#35797
+  ClientHeight = 96
+  ClientWidth = 341
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object UpperFanLabel: TLabel
+    Left = 8
+    Top = 8
+    Width = 204
+    Height = 18
+    Caption = #19978#37096#39118#25159#36716#36895#20540#65288#26368#22823'100'#65289#65306
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LowerFanLabel: TLabel
+    Left = 8
+    Top = 32
+    Width = 204
+    Height = 18
+    Caption = #19979#37096#39118#25159#36716#36895#20540#65288#26368#22823'100'#65289#65306
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object UpperFanEdit: TEdit
+    Left = 208
+    Top = 8
+    Width = 121
+    Height = 24
+    Alignment = taRightJustify
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object LowerFanEdit: TEdit
+    Left = 208
+    Top = 32
+    Width = 121
+    Height = 24
+    Alignment = taRightJustify
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object StartButton: TButton
+    Left = 8
+    Top = 64
+    Width = 81
+    Height = 25
+    Caption = #21452#39118#25159#28385#36716#36895
+    TabOrder = 2
+    OnClick = StartButtonClick
+  end
+  object StopButton: TButton
+    Left = 131
+    Top = 64
+    Width = 81
+    Height = 25
+    Caption = #21452#39118#25159#20572#27490
+    TabOrder = 3
+    OnClick = StopButtonClick
+  end
+  object TestButton: TButton
+    Left = 248
+    Top = 64
+    Width = 81
+    Height = 25
+    Caption = #21452#39118#25159#36716#21160
+    TabOrder = 4
+    OnClick = TestButtonClick
+  end
+end

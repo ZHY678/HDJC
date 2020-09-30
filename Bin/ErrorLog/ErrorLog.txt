@@ -1,0 +1,1 @@
+2020年03月09日 10时00分29秒:错误信息为'' is not a valid integer value,错误地点位于FanControlForm.TestButtonClick

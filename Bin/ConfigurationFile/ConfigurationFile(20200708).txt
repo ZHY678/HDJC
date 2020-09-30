@@ -1,0 +1,17 @@
+[SenSorSetting]
+
+[ParameticCorrection]
+IsThermalCompensation = 1
+UpperSensorAngle =0.403890
+LowerSensorAngle =0.760078
+SensorsDistance =202.758054
+
+[CalibrationParameter]
+UpperLineMeanValue =82.691109
+LowerLineMeanValue =100.066945
+UpperSensorTemperature =34.5
+LowerSensorTemperature =32.5
+
+[Debug]
+IsDebug = 1
+IsShow3D = 0
